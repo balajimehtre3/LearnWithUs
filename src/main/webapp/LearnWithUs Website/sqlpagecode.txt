@@ -1,0 +1,132 @@
+<center><img src="sqllogo.png" height="200px" width="300px"></center>
+
+<hr class="featurette-divider">
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+
+
+  <div class="col">
+    <div class="card">
+      <center><img src="Raymond.jpeg" class="card-img-top" alt="Raymond Boyce" align="center"></center>
+      <div class="card-body">
+        <h5 class="card-title" align="center" style="color: royalblue;"><b>Raymond Boyce</b></h5>
+        <p class="card-text" align="center">Raymond F. Boyce (1946–1974) was an American computer scientist who was known for his research in relational databases. He is best known for his work co-developing the SQL database language and Boyce-Codd normal form.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col">
+    <div class="card">
+      <center><img src="donchamberlin.jpg" class="card-img-top" alt="Donald Chamberlin" align="center"></center>
+      <div class="card-body">
+        <h5 class="card-title" align="center" style="color: royalblue;"><b>Donald Chamberlin</b></h5>
+        <p class="card-text" align="center">Donald D. Chamberlin is an American computer scientist who is best known as one of the principal designers of the original SQL language specification with Raymond Boyce. He also made significant contributions to the development of XQuery. Chamberlain was elected a member of the National Academy of Engineering in 1997 for contributions to the SQL database query language.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<br>
+<hr class="featurette-divider">
+
+
+<h2 align="center" style="color: royalblue;">SQL Sections</h2>
+<br>
+
+
+<div class="row row-cols-1 row-cols-md-5 g-4" align="center">
+
+  <div></div>
+
+
+  <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+    <a href=""><div class="card-header"><b>SECTION 1</b></div></a>
+      <div class="card-body">
+        <ul>
+          <li>Topic 1</li>
+          <li>Topic 2</li>
+          <li>Topic 3</li>
+          <li>Topic 4</li>
+        </ul>
+      </div>
+  </div>&nbsp  &nbsp  &nbsp  &nbsp  &nbsp 
+
+
+  <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+    <a href=""><div class="card-header"><b>SECTION 2</b></div></a>
+      <div class="card-body">
+        <ul>
+          <li>Topic 1</li>
+          <li>Topic 2</li>
+          <li>Topic 3</li>
+          <li>Topic 4</li>
+        </ul>
+      </div>
+  </div> &nbsp  &nbsp  &nbsp  &nbsp  &nbsp 
+
+
+  <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+    <a href=""><div class="card-header"><b>SECTION 3</b></div></a>
+      <div class="card-body">
+        <ul>
+          <li>Topic 1</li>
+          <li>Topic 2</li>
+          <li>Topic 3</li>
+          <li>Topic 4</li>
+        </ul>
+      </div>
+  </div> &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
+
+  <div></div>
+
+</div>
+
+
+<br>
+<br>
+<br>
+
+
+<center>
+<div class="row row-cols-1 row-cols-md-4 g-4">
+
+  <div>
+  </div> &nbsp  &nbsp  &nbsp  &nbsp  &nbsp 
+
+  <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+    <a href=""><div class="card-header"><b>SECTION 4</b></div></a>
+      <div class="card-body">
+        <ul>
+          <li>Topic 1</li>
+          <li>Topic 2</li>
+          <li>Topic 3</li>
+          <li>Topic 4</li>
+        </ul>
+      </div>
+  </div>&nbsp  &nbsp  &nbsp  &nbsp  &nbsp 
+
+
+  <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+    <a href=""><div class="card-header"><b>SECTION 5</b></div></a>
+      <div class="card-body">
+        <ul>
+          <li>Topic 1</li>
+          <li>Topic 2</li>
+          <li>Topic 3</li>
+          <li>Topic 4</li>
+        </ul>
+      </div>
+  </div> &nbsp  &nbsp  &nbsp  &nbsp  &nbsp 
+
+  <div>
+  </div>
+
+</div>
+</center>

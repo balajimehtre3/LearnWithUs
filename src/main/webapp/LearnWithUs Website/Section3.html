@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LearnWithUs</title>
+
+  <!--Bootstrap CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <!--tailwind JavaScript only -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+  <!--tailwind CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- LearnWithUs Logo -->
+  <link rel="alternate icon" href="Learnwithus_Logo.png" id="favicon-png" sizes="any">
+  
+
+<style type="text/css">
+  #button1{
+      align-content: center;
+      border-radius: 25px;
+      text-align: center;
+  }
+
+  
+  #button1:hover, button:focus, button:active {
+    cursor: pointer; 
+  }
+  .men:hover{
+      color: white;
+
+    }
+  #ab{
+    color: white;
+  }
+  </style>
+
+   <script>
+  function showAlert() {
+    var myText = "Page is Upcoming Soon ! ";
+    alert (myText);
+  }
+  </script>
+
+</head>
+<head>
+  <header class="text-gray-400 bg-gray-900 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium text-white mb-0 md:mb-0">
+
+      <a href="balaji.html"><img src="Learnwithus_Logo.png" height="90px" width="90px"></a>
+      <span class="ml-3 text-xl"></span>
+    </a>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <div id="button1" class="btn-group" role="group" aria-label="Basic example">
+          <button id="button1" type="button" class="btn btn-primary" ><a href="sqlpagecode.html" target="_blank" class="men">SQL</a></button>&nbsp&nbsp
+          <button id="button1" type="button" class="btn btn-primary"  onclick="showAlert()" class="men">WEB TECH</button>&nbsp&nbsp
+          <button id="button1" type="button" class="btn btn-primary" onclick="showAlert()" class="men">JAVA</button>&nbsp&nbsp
+          <button id="button1" type="button" class="btn btn-primary" onclick="showAlert()" class="men">J2EE</button>
+      </div>
+    </nav>
+    <button id="button1" type="button" class="btn btn-primary" class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"><a href="Home Page.html" class="men">Log out</a>
+    </button>
+  </div>
+</header>
+</head>
+
+
+
+<body>
+<section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+  <div class="text-gray-400 bg-gray-900 body-font"><center><a href="sqlpagecode.html"><img src="sqllogo.png" height="100px" width="300px" ></a></center></div>
+  <div class="container px-5 py-1 mx-auto">
+    <div class="-my-8 divide-y-2 divide-gray-800">
+
+
+
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:flex-grow">
+
+          <h2 class="text-2xl font-medium text-white title-font mb-2">DDL(DATA DEFINITION LANGUAGE)</h2>
+          <p class="leading-relaxed">DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database.DDL is a set of SQL commands used to create, modify, and delete database structures but not data. These commands are normally not used by a general user, who should be accessing the database via an application.</p><br>
+
+          <li class="text-xl font-medium text-white title-font mb-2" type="square">List of DDL commands:</li>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">CREATE:</li>
+          <p class="leading-relaxed">This command is used to create the database or its objects (like table, index, function, views, store procedure, and triggers)</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">ALTER:</li>
+          <p class="leading-relaxed">This is used to alter the structure of the database.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">DROP:</li>
+          <p class="leading-relaxed">This command is used to delete objects from the database.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">TRUNCATE:</li>
+          <p class="leading-relaxed">This is used to remove all records from a table, including all spaces allocated for the records are removed.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">COMMENT:</li>
+          <p class="leading-relaxed">This is used to add comments to the data dictionary.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">RENAME:</li>
+          <p class="leading-relaxed">This is used to rename an object existing in the database.</p>
+                  
+        </div>
+      </div>
+
+
+
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:flex-grow">
+
+          <h2 class="text-2xl font-medium text-white title-font mb-2">DQL (DATA QUERY LANGUAGE)</h2>
+          <p class="leading-relaxed">DQL statements are used for performing queries on the data within schema objects. The purpose of the DQL Command is to get some schema relation based on the query passed to it. We can define DQL as follows it is a component of SQL statement that allows getting data from the database and imposing order upon it. It includes the SELECT statement. This command allows getting the data out of the database to perform operations with it. When a SELECT is fired against a table or tables the result is compiled into a further temporary table, which is displayed or perhaps received by the program i.e. a front-end.</p><br>
+          
+          <li class="text-xl font-medium text-white title-font mb-2" type="square">List of DQL commands:</li>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">SELECT:</li>
+          <p class="leading-relaxed">It is used to retrieve data from the database.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">PROJECTION:</li>
+          <p class="leading-relaxed">This is used to retrive the data from columns.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">SELECTION:</li>
+          <p class="leading-relaxed">This is used to retrive the data from  both columns and rows.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">JOINS:</li>
+          <p class="leading-relaxed">This is used to retrive the data from multiple Tables simultaneously.</p>
+
+        </div>
+      </div>
+
+
+
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:flex-grow">
+
+          <h2 class="text-2xl font-medium text-white title-font mb-2">DML (DATA MANIPULATION LANGUAGE)</h2>
+          <p class="leading-relaxed">The SQL commands that deals with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements. It is the component of the SQL statement that controls access to data and to the database. Basically, DCL statements are grouped with DML statements.</p><br>
+          
+          <li class="text-xl font-medium text-white title-font mb-2" type="square">List of DML commands:</li>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">INSERT:</li>
+          <p class="leading-relaxed">It is used to insert data into a table.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">UPDATE:</li>
+          <p class="leading-relaxed">It is used to update existing data within a table.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">DELETE:</li>
+          <p class="leading-relaxed">It is used to delete records from a database table.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">LOCK:</li>
+          <p class="leading-relaxed">Table control concurrency.</p>
+
+        </div>
+      </div>
+
+
+
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:flex-grow">
+
+          <h2 class="text-2xl font-medium text-white title-font mb-2">DCL (DATA CONTROL LANGUAGE)</h2>
+          <p class="leading-relaxed">TDCL includes commands such as GRANT and REVOKE which mainly deal with the rights, permissions, and other controls of the database system.<</p><br>
+          
+          <li class="text-xl font-medium text-white title-font mb-2" type="square">List of DCL commands:</li>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">GRANT:</li>
+          <p class="leading-relaxed">This command gives users access privileges to the database.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">REVOKE:</li>
+          <p class="leading-relaxed">This command withdraws the user’s access privileges given by using the GRANT command.</p>
+
+        </div>
+      </div>
+
+
+
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:flex-grow">
+
+          <h2 class="text-2xl font-medium text-white title-font mb-2">TCL (TRANSACTIONAL CONTROL LANGUAGE)</h2>
+          <p class="leading-relaxed">TCL stands for Transaction Control Languages. These commands are used for maintaining consistency of the database and for the management of transactions made by the DML commands.</p><br>
+          
+          <li class="text-xl font-medium text-white title-font mb-2" type="square">List of TCL commands:</li>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">COMMIT:</li>
+          <p class="leading-relaxed">Commits a Transaction.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">ROLLBACK:</li>
+          <p class="leading-relaxed">Rollbacks a transaction in case of any error occurs.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">SAVEPOINT:</li>
+          <p class="leading-relaxed">Sets a savepoint within a transaction.</p>
+
+        </div>
+      </div>
+
+
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:flex-grow">
+
+          <h2 class="text-2xl font-medium text-white title-font mb-2">NORMALIZATION</h2>
+          <p class="leading-relaxed">Process of reducing larger table into smaller table by identifying redundancy and anomalies is known as normalization.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">Redundancies:</li>
+          <p class="leading-relaxed">Repeatation of data or duplication of data.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">Anomalies:</li>
+          <p class="leading-relaxed">They can be termed as a side effects that we can have in the form of Insert, Update, Delete.</p><br>
+          
+          <li class="text-xl font-medium text-white title-font mb-2" type="square">Types of Normalization:</li>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">1NF:</li>
+          <p class="leading-relaxed">Data entered in a cell should accept single value data.If table is unconditional, it converts into "TOTAL FUNCNTIONAL DEPENDANCIES".</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">2NF:</li>
+          <p class="leading-relaxed">If the table is under 2NF first it should complete 1NF. If the table is having "TRANSITIVE FUNCTIONAL DEPENDANCY" it should convert into "TOTAL FUNCTIONAL DEPENDANCY".</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">3NF:</li>
+          <p class="leading-relaxed">If the table is under 3NF first it should complete 2NF. If the table is having "PARTIAL FUNCTIONAL DEPENDANCY" it should convert into "TOTAL FUNCTIONAL DEPENDANCY".</p><br>
+
+
+          <li class="text-xl font-medium text-white title-font mb-2" type="square">Types of Dependancies:</li>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">Total Functional Dependancies:</li>
+          <p class="leading-relaxed">All the attributes depends on one attribute.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">Partial Functional Dependancies:</li>
+          <p class="leading-relaxed">Composite key attribute depends on 2 attributes.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">Transitive Functional Dependancies:</li>
+          <p class="leading-relaxed">Attribute indirectly depends on another attribute.One non key attribute depends on key attribute.</p>
+
+
+        </div>
+      </div>
+
+
+
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:flex-grow">
+
+          <h2 class="text-2xl font-medium text-white title-font mb-2">DE-NORMALIZATION</h2>
+          <p class="leading-relaxed">It is a process of combing 1 smaller table to form a bigger table it is known as DE-NORMALIZATION.</p>
+
+        </div>
+      </div>
+
+
+
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:flex-grow">
+
+          <h2 class="text-2xl font-medium text-white title-font mb-2">ATTRIBUTES</h2>
+          
+          <li class="text-xl font-medium text-white title-font mb-2" type="square">Types of Attributes:</li>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">Key Attribute:</li>
+          <p class="leading-relaxed">It is also known as candidatee key.It is an attribute present in the table.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">Non-Key Attribute:</li>
+          <p class="leading-relaxed">Non-key attributes are not unique.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">Prime-Key Attribute:</li>
+          <p class="leading-relaxed">key's which are eligible to become a primary key but among only one can be selected as a prime key attribute.It is an attribute present in the table.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">Super-Key Attribute:</li>
+          <p class="leading-relaxed">Combination of 2 or more key attributes.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">Composite-Key Attribute:</li>
+          <p class="leading-relaxed">Combination of 2 or more non key attributes.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">Foreign-Key Attribute:</li>
+          <p class="leading-relaxed">It is used to have connection between 2 tables.</p>
+
+        </div>
+      </div>
+
+
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:flex-grow">
+
+          <h2 class="text-2xl font-medium text-white title-font mb-2">E.R.DIAGRAM</h2>
+          <p class="leading-relaxed">It describes the structure of the table through diagrams. It has 3 components.</p><br>
+          
+          <li class="text-xl font-medium text-white title-font mb-2" type="square">It's Components:</li>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">ENTITY:</li>
+          <p class="leading-relaxed">Specify the condition in rectangle.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">ATTRIBUTES:</li>
+          <p class="leading-relaxed">Specify the condition in oval.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">RELATIONSHIP:</li>
+          <p class="leading-relaxed">Specify the condition in hexagon.</p>
+
+        </div>
+      </div>
+
+
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:flex-grow">
+
+          <h2 class="text-2xl font-medium text-white title-font mb-2">PSEUDO COLUMN</h2>
+          <p class="leading-relaxed">A pseudo column behaves like table column, but it is not actually stored in column.</p><br>
+          
+          <li class="text-xl font-medium text-white title-font mb-2" type="square">It's Components:</li>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">ROWNUM:</li>
+          <p class="leading-relaxed">Oracle engine maintain number of records inserted by user in table.By the help of Rownum clause we can access the data accordingly to records inserted.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">ROW-ID:</li>
+          <p class="leading-relaxed">For each row in database row-id pseudo column returns  row's address. The row-id contains information about rows address.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">DATA BLOCK NO:</li>
+          <p class="leading-relaxed">The space assigned by the oracle SQL engine to save the record.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">RECORD NO:</li>
+          <p class="leading-relaxed">Oracle engine maintains the record number for each record.</p><br>
+
+          <li class="text-sm font-medium text-white title-font mb-2" type="disc">FILE NO:</li>
+          <p class="leading-relaxed">File no means table number.</p><br>
+
+        </div>
+      </div>
+
+
+
+      
+
+    </div>
+  </div><br><br>
+</section>
+</body>
+
+
+
+
+<footer class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-0 py-19 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+        <a href="D:\Anu\balaji.html"><img src="Learnwithus_Logo.png" height="90px" width="90px"></a>
+        <span class="ml-3 text-xl"></span>
+      </a>
+    </div>
+    
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-xl mb-3">Blogs</h2>
+        
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-xl mb-3" ><a href="contacthtmlcode.html" target="_blank">Contact Us</a></h2>
+        
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h1 class="title-font font-medium text-white tracking-widest text-xl mb-3">Subjects</h1>
+        
+      </div>
+    </div>
+  </div><br>
+  <div class="bg-gray-800 bg-opacity-50">
+    <div class="container mx-auto py-3 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p class="text-gray-400 text-sm text-center sm:text-left">© 2022 LearnWithUs
+        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-500 ml-1" target="_blank"></a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <a class="text-gray-400">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-400">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-400">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-400">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+</html>
